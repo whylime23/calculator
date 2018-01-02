@@ -73,23 +73,19 @@ class App extends Component {
                   <div className='col button-single'>
                     3
                   </div>
-                  <div className='col button-single' id='equals'>
+                  <div className='col button-single' />
+                  <div className='button-single' id='equals'>
                     =
                   </div>
                 </div>
                 <div className='row fifth-row'>
-                  <div className='col button-single'>
-                    0
-                  </div>
-                  <div className='col button-single'>
+                  <div className='col-9 button-single button-zero'>
                     0
                   </div>
                   <div className='col button-single'>
                     .
                   </div>
-                  <div className='col button-single' id='equals'>
-                    =
-                  </div>
+                  <div className='col button-single' />
                 </div>
               </div>
             </div>
