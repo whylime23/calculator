@@ -62,8 +62,8 @@ body {
 
 .button-single {
   background: #9897c2;
-  height: 38px;
-  width: 55px;
+  /*height: 38px;
+  width: 55px;*/
   margin: 5px;
   padding: 5px;
   font-size: 14pt;
@@ -82,6 +82,21 @@ body {
 
 .button-special {
   background: #9d6888;
+}
+
+.button-zero {
+  flex: 0 0 calc(50% - 10px)
+}
+
+.fourth-row {
+  position: relative;
+}
+
+#equals {
+  width: 55px;
+  position: absolute;
+  right: 0px;
+  height: 86px;
 }
 
 .footer {
